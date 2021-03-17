@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Roboto";
+  font-display: swap;
+  src: url("../fonts/$file_name.woff") format("woff"), url("../fonts/$file_name.woff2") format("woff2");
+  font-weight: "700";
+  font-style: "normal";
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -17,6 +25,12 @@ h2 {
   font-size: 36px;
 }
 
+.container {
+  position: relative;
+  max-width: 1240px;
+  margin: 0 auto;
+  z-index: 3;
+}
 
 .btn {
   padding: 23px 71px;
@@ -30,6 +44,23 @@ h2 {
   border: none;
 }
 
+.header {
+  color: #ffffff;
+  position: relative;
+  height: 718px;
+  background: url(../img/bg.jpg) no-repeat center top/cover;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 2;
+}
 
 .header__burger {
   display: none;
@@ -86,10 +117,74 @@ h2 {
           box-shadow: 0px 2px 8px rgba(22, 127, 250, 0.5);
 }
 
+.logo-icon {
+  width: 145.81px;
+  height: 66px;
+}
+
+.nav {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 31px;
+  height: 66px;
+}
+
+.nav__logo {
+  width: 145.81px;
+  height: 66px;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.nav__list li {
+  margin-right: 19px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.nav__list li:last-child {
+  margin: 0;
+}
+
+.nav__list li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.nav__link {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.nav__link:hover {
+  color: #999999;
+}
+
 .social-icon {
   height: 30px;
   width: 30px;
-  fill: "#FCFCFC";
+  margin-right: 22px;
+}
+
+.social-icon:last-child {
+  margin: 0;
 }
 
 @media screen and (max-width: 1300px) {
@@ -493,7 +588,7 @@ h2 {
 .form {
   height: 700px;
   padding-top: 60px;
-  background: url('./img/bg-form.jpg') no-repeat center top/cover;
+  background: url(../img/bg-form.jpg) no-repeat center top/cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/script.js"></script>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="nav__logo">
+                    <svg class="logo-icon">
+                        <use xlink:href="./img/icons/icons.svg#logo"></use>
+                    </svg>
+                </a>
+                <div id="header__burger" class="header__burger">
+                    <span></span>
+                </div>
+                <div id="header__menu" class="header__menu">
+                    <ul class="nav__list">
+                        <li><a href="#" id="header" class="nav__link">Информация</a></li>
+                        <li><a href="#" id="projects" class="nav__link">Работы</a></li>
+                        <li><a href="#" id="mission" class="nav__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="header__social">
+                        <svg class="social-icon">
+                            <use xlink:href="./img/icons/icons.svg#vk"></use>
+                        </svg>
+                        <svg class="social-icon">
+                            <use xlink:href="./img/icons/icons.svg#telegram"></use>
+                        </svg>
+                        <svg class="social-icon">
+                            <use xlink:href="./img/icons/icons.svg#youtube"></use>
+                        </svg>
+                        <svg class="social-icon">
+                            <use xlink:href="./img/icons/icons.svg#instagram"></use>
+                        </svg>
+                </div>
+            </nav>
+            <div class="header__block">
+                <h2 class="header__title">FRONT-END DEVELOPER</h2>
+                <h1 class="header__subtitle">Дмитрий Иванов</h1>
+                <p class="header__description">Разрабатываю сайты для малого и среднего бизнеса. У меня можно дизайн и верстку небольшого сайта или интернет-магазина</p>
+                <button class="btn header__btn">Оставить заявку</button>
+            </div>
+            <img class="header__avatar" src="./img/avatar.jpg" alt="">
+        </div>
+    </header>
+    <section class="advantages">
+        <div class="container">
+            <h2 class="advantages__title">Со мной удобно работать</h2>
+            <div class="advantages-list">
+                <div class="advantages-block">
+                    <div class="advantages__subtitle">
+                        <svg class="advantages-block__icon">
+                            <use xlink:href="./img/icons/icons.svg#offer-img"></use>
+                        </svg>
+                        <h3 class="advantages-block__title">По договору</h3>
+                    </div>
+                    <p class="advantages-block__description">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
+                </div>
+                <div class="advantages-block">
+                    <div class="advantages__subtitle">
+                        <svg class="advantages-block__icon">
+                            <use xlink:href="./img/icons/icons.svg#deadline-img"></use>
+                        </svg>
+                        <h3 class="advantages-block__title">Точно в срок</h3>
+                    </div>
+                    <p class="advantages-block__description">В договоре прописана моя  ответственность за срок проекта. Если просрочу — плачу неустойку. </p>
+                </div>
+                <div class="advantages-block">
+                    <div class="advantages__subtitle">
+                        <svg class="advantages-block__icon">
+                            <use xlink:href="./img/icons/icons.svg#agreement-img"></use>
+                        </svg>
+                        <h3 class="advantages-block__title">Ценник под вас</h3>
+                    </div>
+                    <p class="advantages-block__description">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
+                </div>
+                <div class="advantages-block">
+                    <div class="advantages__subtitle">
+                        <svg class="advantages-block__icon">
+                            <use xlink:href="./img/icons/icons.svg#steps-img"></use>
+                        </svg>
+                        <h3 class="advantages-block__title">Премежуточные итоги</h3>
+                    </div>
+                    <p class="advantages-block__description">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
+                </div>
+                <div class="advantages-block">
+                    <div class="advantages__subtitle">
+                        <svg class="advantages-block__icon">
+                            <use xlink:href="./img/icons/icons.svg#storage-img"></use>
+                        </svg>
+                        <h3 class="advantages-block__title">Хостинг и домен</h3>
+                    </div>
+                    <p class="advantages-block__description">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
+                </div>
+                <div class="advantages-block">
+                    <div class="advantages__subtitle">
+                        <svg class="advantages-block__icon">
+                            <use xlink:href="./img/icons/icons.svg#conversation-img"></use>
+                        </svg>
+                        <h3 class="advantages-block__title">Не брошу после сдачи</h3>
+                    </div>
+                    <p class="advantages-block__description">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="jobs">
+        <div class="container">
+            <h2 class="jobs__title">Мои работы</h2>
+            <div class="jobs-buttons">
+                <button class="btn jobs__btn active">Все</button>
+                <button class="btn jobs__btn">HTML</button>
+                <button class="btn jobs__btn">JavaScript</button>
+                <button class="btn jobs__btn">React</button>
+            </div>
+            <div class="jobs-items">
+                <div class="jobs-item">
+                    <img src="./img/ikea.jpg" alt="" class="jobs-item__img">
+                    <h2 class="jobs-item__title">IKEA</h2>
+                    <p class="jobs-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ...</p>
+                    <button class="btn jobs-item__btn">Посмотреть сайт</button>
+                    <button class="btn jobs-item__btn">Посмотреть код</button>
+                </div>
+                <div class="jobs-item">
+                    <img src="./img/ikea.jpg" alt="" class="jobs-item__img">
+                    <h2 class="jobs-item__title">IKEA</h2>
+                    <p class="jobs-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ...</p>
+                    <button class="btn jobs-item__btn">Посмотреть сайт</button>
+                    <button class="btn jobs-item__btn">Посмотреть код</button>
+                </div>
+                <div class="jobs-item">
+                    <img src="./img/ikea.jpg" alt="" class="jobs-item__img">
+                    <h2 class="jobs-item__title">IKEA</h2>
+                    <p class="jobs-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ...</p>
+                    <button class="btn jobs-item__btn">Посмотреть сайт</button>
+                    <button class="btn jobs-item__btn">Посмотреть код</button>
+                </div>
+                <div class="jobs-item">
+                    <img src="./img/ikea.jpg" alt="" class="jobs-item__img">
+                    <h2 class="jobs-item__title">IKEA</h2>
+                    <p class="jobs-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ...</p>
+                    <button class="btn jobs-item__btn">Посмотреть сайт</button>
+                    <button class="btn jobs-item__btn">Посмотреть код</button>
+                </div>
+                <div class="jobs-item">
+                    <img src="./img/ikea.jpg" alt="" class="jobs-item__img">
+                    <h2 class="jobs-item__title">IKEA</h2>
+                    <p class="jobs-item__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ...</p>
+                    <button class="btn jobs-item__btn">Посмотреть сайт</button>
+                    <button class="btn jobs-item__btn">Посмотреть код</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="container">
+            <h2 class="form__title">Оставить заяку</h2>
+            <form action="" class="form-control">
+                <input type="text" class="form__input" placeholder="Ваше имя">
+                <input type="email" class="form__input" placeholder="Ваш email">
+                <input type="phone" class="form__input" placeholder="Ваш телефон">
+                <button class="btn form__btn">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer-container">
+            <svg class="footer__icon">
+                <use xlink:href="./img/icons/icons.svg#footer-logo"></use>
+            </svg>
+            <div class="footer__contacts">
+                <div class="footer-block">
+                    <div class="footer__phone">
+                        <h4 class="footer__title">Телефон</h4>
+                        <a href="tel:+79999999999" class="footer__link">+ 7 (999) 999-99-99</a>
+                    </div>
+                    <div class="footer__email">
+                        <h4 class="footer__title">Почта</h4>
+                        <a href="mailto:web.developer@gmail.com" class="footer__link">web.developer@gmail.com</a>
+                    </div>
+                </div>
+                <div class="footer__socials">
+                    <h4 class="footer__title">Соц. сети</h4>
+                    <a href="t.me/ivanov" class="footer__link">t.me/ivanov</a>
+                    <a href="vk.me/ivanov" class="footer__link">vk.me/ivanov</a>
+                    <a href="fb.me/ivanov" class="footer__link">fb.me/ivanov</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

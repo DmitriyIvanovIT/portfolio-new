@@ -1,0 +1,57 @@
+.advantages
+    padding-top: 110px
+    &-list
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        margin-bottom: 49px
+    &__title
+        margin-bottom: 30px
+    &__subtitle
+        display: flex
+        align-items: center
+        margin: 20px 35px 0px 35px
+
+
+
+
+
+.advantages-block
+    background: linear-gradient(121.16deg, #68F06D 13.65%, #687EF0 104.81%)
+    border-radius: 30px
+    width: 30%
+    height: 227px
+    min-width: 289px
+    margin: 10px
+    margin-bottom: 30px
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1)
+    &:hover
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+    &__icon
+        margin-right: 20px
+        width: 50px
+        height: 50px
+    &__title
+
+    &__description
+        line-height: 28px
+        font-size: 16px
+        font-weight: 400
+        max-width: 227px
+        margin: 16px 35px 0px 35px
+
+
+
+
+@media screen and ( max-width: 965px )
+    .advantages
+        padding-top: 40px
+        &-list
+            justify-content: space-around
+        &__title
+            text-align: center
+        &-block
+            &__description
+                line-height: 24px
+    

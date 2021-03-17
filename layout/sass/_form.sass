@@ -1,0 +1,81 @@
+.form
+    height: 700px
+    padding-top: 60px
+    background: url(../img/bg-form.jpg) no-repeat center top / cover
+    display: flex
+    flex-direction: column
+    align-items: start
+    display: block
+    &::after
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background: rgba(0, 0, 0, .5)
+        z-index: 2
+    &__title
+        margin-bottom: 55px
+        color: #ffffff
+    &__input
+        box-sizing: border-box
+        background: #9A9A9A
+        border-radius: 20px
+        width: 100%
+        height: 60px
+        border: none
+        padding: 16px 18px
+        font-size: 24px
+        font-weight: 700
+        color: #ffffff
+        margin-bottom: 30px
+        &::placeholder
+            color: #ffffff
+
+
+    &__btn
+        margin-top: 30px
+        transition: all .3s
+        &:hover
+            transform: translateY(2px)
+            background: #0a57ae
+            box-shadow: 0px 2px 8px rgba(22, 127, 250, 0.5)
+
+.container
+
+.form-control
+    box-sizing: border-box
+    background: #F3F3F3
+    box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.5)
+    border-radius: 30px
+    max-width: 655px
+    height: 495px
+    padding: 70px 50px 50px 50px
+
+@media screen and ( max-width: 965px )
+    .form
+        align-items: center
+        &__title
+            text-align: center
+        &__btn
+            margin-left: auto
+            margin-right: auto
+            display: block
+
+@media screen and ( max-width: 500px )
+    .form-control
+        padding: 60px 15px 15px 15px
+    .form
+        height: 600px
+        
+@media screen and ( max-width: 400px )
+    .form
+        padding-top: 20px
+        &__title
+            margin-bottom: 20px
+        &__input
+            font-size: 18px
+        &__btn
+            font-size: 18px
+            padding: 20px 45px

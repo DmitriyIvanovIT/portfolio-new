@@ -1,0 +1,169 @@
+[
+    {
+        "name": "Аviasales",
+        "description": "Аналог сайта компании «Aviasales»",
+        "images": "http://drive.google.com/uc?export=view&id=1jhHBdu5QASPaMweHeEVTRMyzwGfHSg7w",
+        "page": "https://dmitriyivanovit.github.io/aviasales/",
+        "codes": "https://github.com/DmitriyIvanovIT/aviasales",
+        "tools": "Java Script"
+    },
+    {
+        "name": "Ведьмак",
+        "description": "Промо сайт сериала «Ведьмак» от Netflix",
+        "images": "http://drive.google.com/uc?export=view&id=1Y9tvso_t1fOalbFVYuwueYWyojS0h-Uu",
+        "page": "https://dmitriyivanovit.github.io/The_Witcher/",
+        "codes": "https://github.com/DmitriyIvanovIT/The_Witcher",
+        "tools": "HTML"
+    },
+    {
+        "name": "Batman2021",
+        "description": "Промо сайт к фильму «Бэтмен» 2021 года",
+        "images": "http://drive.google.com/uc?export=view&id=16tiyRkBKiz0B2R5k_Kp_yfuZzQ9P8la_",
+        "page": "https://dmitriyivanovit.github.io/Batman2021/",
+        "codes": "https://github.com/DmitriyIvanovIT/Batman2021",
+        "tools": "HTML"
+    },
+    {
+        "name": "Delivery Food",
+        "description": "Аналог сайта по доставке еды «Delivery club»",
+        "images": "http://drive.google.com/uc?export=view&id=1czMceOuhlzZBg8qZNVM_wm7QrbHvCnN0",
+        "page": "https://dmitriyivanovit.github.io/Delivery-Food/",
+        "codes": "https://github.com/DmitriyIvanovIT/Delivery-Food",
+        "tools": "Java Script"
+    },
+    {
+        "name": "CinemaSearch",
+        "description": "Сайт о фильмах",
+        "images": "http://drive.google.com/uc?export=view&id=1ONDAO9ezd75GkBGG2kw7yPSLvtbG3yfx",
+        "page": "https://dmitriyivanovit.github.io/CinemaSearch/",
+        "codes": "https://github.com/DmitriyIvanovIT/CinemaSearch",
+        "tools": "Java Script"
+    },
+    {
+        "name": "Netclicks",
+        "description": "Сайт о сериалах",
+        "images": "http://drive.google.com/uc?export=view&id=13LetEYK4cBixj_ELwUgw8OkNrOdceoma",
+        "page": "https://dmitriyivanovit.github.io/netclicks/",
+        "codes": "https://github.com/DmitriyIvanovIT/netclicks",
+        "tools": "Java Script"
+    },
+    {
+        "name": "Дистанция",
+        "description": "Главная страница выдуманной соц. сети",
+        "images": "http://drive.google.com/uc?export=view&id=1_yp4itk1PSi14-WBHU6HptVBrskNMlib",
+        "page": "https://dmitriyivanovit.github.io/distance/",
+        "codes": "https://github.com/DmitriyIvanovIT/distance",
+        "tools": "HTML"
+    },
+    {
+        "name": "Ghostbusters",
+        "description": "Промо сайт к фильму «Охотники на приведений»",
+        "images": "http://drive.google.com/uc?export=view&id=12jBGK5u-kLGh3u9fEOdpmWfoLrYM2QNt",
+        "page": "https://dmitriyivanovit.github.io/Ghostbusters/",
+        "codes": "https://github.com/DmitriyIvanovIT/Ghostbusters",
+        "tools": "HTML"
+    },
+    {
+        "name": "Star Wars",
+        "description": "Промо сайт к фильму «Звездные воины»",
+        "images": "http://drive.google.com/uc?export=view&id=1WqXiXgoLGClW0oxWWC8QPJ-CIQOPXZbT",
+        "page": "https://dmitriyivanovit.github.io/star_wars/",
+        "codes": "https://github.com/DmitriyIvanovIT/star_wars",
+        "tools": "HTML"
+    },
+    {
+        "name": "Awito",
+        "description": "Аналог сайта объявлений «Avito»",
+        "images": "http://drive.google.com/uc?export=view&id=1iaITc4m2g7n8YtjxW5BpXxs1kIcMWlw7",
+        "codes": "https://github.com/DmitriyIvanovIT/awito",
+        "tools": "Java Script"
+    },
+    {
+        "name": "ЯTunes",
+        "description": "Сайт с медиаплеирами на JS",
+        "images": "http://drive.google.com/uc?export=view&id=1wEPMovkS3XOiBtJh3SrNvgcC_R3tjcpO",
+        "page": "https://dmitriyivanovit.github.io/iTunes/",
+        "codes": "https://github.com/DmitriyIvanovIT/iTunes",
+        "tools": "Java Script"
+    },
+    {
+        "name": "SpaceX",
+        "description": "Аналог сайта компании Илона Маска",
+        "images": "http://drive.google.com/uc?export=view&id=18OcU9qCHF6BVtjdEVgBNyU8P_Bw_2Efm",
+        "page": "https://dmitriyivanovit.github.io/SpaceX/",
+        "codes": "https://github.com/DmitriyIvanovIT/SpaceX",
+        "tools": "HTML"
+    },
+    {
+        "name": "Твои финансы",
+        "description": "Калькулятор финансов",
+        "images": "http://drive.google.com/uc?export=view&id=1yKZA1xxu8_U6mmGppoNJ_qtXmLIkre4U",
+        "page": "https://dmitriyivanovit.github.io/calc-money/",
+        "codes": "https://github.com/DmitriyIvanovIT/reactWorkShop",
+        "tools": "React"
+    },
+    {
+        "name": "Ежедневник",
+        "description": "Сайт для планирования дел",
+        "images": "http://drive.google.com/uc?export=view&id=17wb-4Nd8BoBH0hTWIDcpXukkPX9EOiWl",
+        "page": "https://dmitriyivanovit.github.io/ToDoList/",
+        "codes": "https://github.com/DmitriyIvanovIT/ToDoList/tree/lesson22h",
+        "tools": "Java Script"
+    },
+    {
+        "name": "Гоночки",
+        "description": "Игра гоночки на JS",
+        "images": "http://drive.google.com/uc?export=view&id=18DSswS-P5LLFOWXQx3tp86WDmNvDowpG",
+        "page": "https://dmitriyivanovit.github.io/NeedForJS/",
+        "codes": "https://github.com/DmitriyIvanovIT/NeedForJS/tree/changeCar",
+        "tools": "Java Script"
+    },
+    {
+        "name": "Финансы",
+        "description": "Калькулятор финаносов на JS в ООП стиле",
+        "images": "http://drive.google.com/uc?export=view&id=1yKZA1xxu8_U6mmGppoNJ_qtXmLIkre4U",
+        "page": "https://dmitriyivanovit.github.io/glo_js/",
+        "codes": "https://github.com/DmitriyIvanovIT/glo_js/tree/lesson16h",
+        "tools": "Java Script"
+    },
+    {
+        "name": "Услуги моделирования",
+        "description": "Сайт услуг по 3D моделированию",
+        "images": "http://drive.google.com/uc?export=view&id=1mN0oJNAWA4t8VK0o-gjbbobZraOXSnQ9",
+        "page": "https://dmitriyivanovit.github.io/3d-Glo_js/",
+        "codes": "https://github.com/DmitriyIvanovIT/3d-Glo_js/tree/lesson32",
+        "tools": "Java Script"
+    },
+    {
+        "name": "Герои Marvel",
+        "description": "Сайт о героях вселенной Marvel",
+        "images": "http://drive.google.com/uc?export=view&id=1Z9vSFI49eYsyJDEyWSi-TxKf2ye4605L",
+        "page": "https://dmitriyivanovit.github.io/heroes-page/",
+        "codes": "https://github.com/DmitriyIvanovIT/heroes-page",
+        "tools": "Java Script"
+    },
+    {
+        "name": "Города",
+        "description": "Сайт с информацией о городах",
+        "images": "http://drive.google.com/uc?export=view&id=10TxJEBsSNWqZu9XZW3-0UIY7_T9w5fg3",
+        "page": "https://dmitriyivanovit.github.io/inputCities/",
+        "codes": "https://github.com/DmitriyIvanovIT/inputCities/tree/version03",
+        "tools": "Java Script"
+    },
+    {
+        "name": "ИКЕЯ",
+        "description": "Сайт каталог ИКЕИ",
+        "images": "http://drive.google.com/uc?export=view&id=1J1lpKFYj2wDfTL6lktXZ1Va4jL_KXpS7",
+        "page": "https://dmitriyivanovit.github.io/workshop-ikea-js/",
+        "codes": "https://github.com/DmitriyIvanovIT/workshop-ikea-js/tree/day04",
+        "tools": "Java Script"
+    },
+    {
+        "name": "SpaceX-React",
+        "description": "SPA приложение spaceX на ReactJS",
+        "images": "http://drive.google.com/uc?export=view&id=18OcU9qCHF6BVtjdEVgBNyU8P_Bw_2Efm",
+        "page": "https://dmitriyivanovit.github.io/SpaceX-react/",
+        "codes": "https://github.com/DmitriyIvanovIT/SpaceX-react/tree/day02",
+        "tools": "React"
+    }
+]

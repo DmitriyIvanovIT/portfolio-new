@@ -1,0 +1,61 @@
+.footer
+    background: #383838
+    
+    &__icon
+        width: 256px
+        height: 116px
+    &__contacts
+    &__phone
+        margin-right: 60px
+
+    &__title
+        color: #FFFCFC
+        font-size: 21px
+        line-height: 25px
+        font-weight: 700
+        margin-bottom: 20px
+
+    &__link
+        color: #FFFCFC
+        text-decoration: none
+        font-size: 21px
+        line-height: 25px
+        font-weight: 400
+        margin-right: 40px
+
+    &__email
+
+    &__socials
+    &-block
+        display: flex
+        margin-bottom: 40px
+        justify-content: space-between
+
+.container
+
+.footer-container
+    display: flex
+    justify-content: space-between
+    align-items: center
+    min-height: 300px
+    
+
+@media screen and ( max-width: 930px )
+    .footer
+        &__phone
+            margin-right: 20px
+
+@media screen and ( max-width: 890px )
+    .footer-container
+        flex-direction: column
+        justify-content: space-around
+        min-height: 450px
+@media screen and ( max-width: 580px )
+    .footer
+        padding-top: 30px
+        padding-bottom: 30px
+        &-block
+            flex-direction: column
+        &__phone
+            margin: 0 0 20px 0
+    
